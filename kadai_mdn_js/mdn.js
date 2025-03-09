@@ -1,8 +1,9 @@
-const event = new Date(Date.UTC(2025, 2, 9,));
-const options = {
-  year: "numeric",
-  month: "long",
-  day: "numeric",
-};
+const today = new Date();
 
-console.log(event.toLocaleDateString(undefined, options));
+const year = today.getFullYear(); 
+
+const month = today.getMonth() + 1; 
+
+const day = today.getDate();
+
+console.log(year + '年' + month + '月' + day + '日');
