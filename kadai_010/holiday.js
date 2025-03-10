@@ -12,3 +12,7 @@ while (i < holidays.length) {
     console.log(holidays[i]);
     i++; 
 }
+
+for (i = 1 ; i <= 9 ; i++) {
+  console.log(i)
+}
